@@ -13,7 +13,7 @@ const CollectionsContainer = () => {
 
 
     const fetchArtworkbyID = async () => {
-        const splicedArtwork = artworkIDs.slice(0,20)
+        const splicedArtwork = artworkIDs.slice(56,65)
         const artworks = Promise.all(splicedArtwork.map( async (artworkID) => {
             const response = await fetch("https://collectionapi.metmuseum.org/public/collection/v1/objects/" + artworkID);
             const jsonArtwork = await response.json();

@@ -13,7 +13,7 @@ const ArtworkDetail = ({selectedArtwork, addFavouritedArtwork}) => {
                 <li>Medium: {selectedArtwork.medium}</li>
                 <li>Department: {selectedArtwork.department}</li>
             </ul>
-            <button onClick={handleClick}>Add to visited!</button>
+            <button onClick={handleClick}>Add to favourites!</button>
         </div>
     )
 
